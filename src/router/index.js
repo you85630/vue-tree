@@ -5,7 +5,6 @@ Vue.use(Router)
 const treeTable = resolve => require(['components/tree'], resolve)
 
 export default new Router({
-  mode: 'history',
   routes: [
     {
       path: '/',
